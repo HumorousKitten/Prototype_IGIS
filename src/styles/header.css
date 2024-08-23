@@ -1,0 +1,31 @@
+.header {
+	background-color: var(--header-background);
+	height: 80px;
+
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.header_account{
+	margin-right: 32px;
+}
+
+.header_account > button {
+	font-family: var(--second-family);
+	color: var(--white);
+	background: var(--access);
+	font-size: 1.5rem;
+}
+
+.header_signIn-p {
+	padding: 9px 40px 9px 40px;
+}
+
+.header_signUp-p {
+	padding: 9px 6px 9px 6px;
+}
+
+.header_account > button + button {
+	margin-left: 41px;
+}
