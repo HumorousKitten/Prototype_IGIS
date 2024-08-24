@@ -1,0 +1,22 @@
+.main_towns{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+	margin-inline: auto;
+	margin-top: 90px;
+	padding-left: 30px;
+}
+
+.group-towns{
+	display: flex;
+	flex-direction: column;
+	color: #034EA2;
+	font-family: var(--font-family);
+	font-weight: bold;
+	font-size: 18px;
+	gap: 10px;
+}
+
+.group-towns + .group-towns {
+	margin-bottom: 10px;
+}

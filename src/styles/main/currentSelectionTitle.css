@@ -1,0 +1,31 @@
+.main_currentSelectionTitle {
+	display: flex;
+	gap: calc(1.06rem + 1vw);
+	margin: auto;
+}
+
+.wrapper {
+	width: calc(100% - 13.125rem);
+}
+
+.currentSelection{
+	display: flex;
+	align-items: center;
+	font-family: var(--font-family);
+	font-weight: 400;
+}
+
+.currentSelection_fz-number{
+	font-size: 6rem;
+	font-size: clamp(3rem, -2rem + 6.667vw, 6rem);
+}
+
+.currentSelection_fz-text{
+	font-size: 1.5rem;
+	font-size: clamp(0.5rem, -1.167rem + 2.222vw, 1.5rem);
+}
+
+.currentSelection  img {
+	margin-left: 17px;
+	width: clamp(3rem, -2.733rem + 7.644vw, 6.44rem);
+}

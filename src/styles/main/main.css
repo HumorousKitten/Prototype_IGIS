@@ -1,0 +1,9 @@
+@import url(./currentSelectionTitle.css);
+@import url(./towns.css);
+
+.main{
+	display: block;
+	background: var(--white);
+	width: calc(100% - 19.875rem);
+	margin-inline: auto;
+}
