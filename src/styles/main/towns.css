@@ -20,3 +20,14 @@
 .group-towns + .group-towns {
 	margin-bottom: 10px;
 }
+
+.main_selectedTown {
+	display: flex;
+	padding: 18px 55px 18px 55px;
+	margin-inline: auto;
+	background: var(--selected);
+	font-family: var(--font-family);
+	font-size: 1.5rem;
+	border-radius: 0.44rem;
+	justify-content: space-between;
+}

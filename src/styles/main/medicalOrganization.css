@@ -1,0 +1,30 @@
+.main_choosingOrg{
+	margin-top: 20px;
+	margin-inline: auto;
+	border: 1px solid #4d4848;
+	border-radius: 10px 10px 0 0;
+}
+
+.choosingOrg-item{
+	display: flex;
+	padding: 44px 60px 60px 21px;
+	justify-content: space-between;
+	font-family: var(--font-family);
+	font-size: 1.5rem;
+	align-items: center;
+}
+
+.choosingOrg-item + .choosingOrg-item {
+	border-top: 2px solid #4d4848;
+}
+
+.choosingOrg-info > span + address{
+	margin-top: 28px;
+}
+
+.choosingOrg-btn > button{
+	color: #fff;
+	background: #00aa8a;
+	border-radius: 0.63rem;
+	padding: 13px 50px;
+}

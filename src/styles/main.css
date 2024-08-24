@@ -12,8 +12,13 @@
 	--header-background: #034ea2;
 	--access: #ce6464;
 	--body-background: rgb(244, 242, 242);
+	--selected: #f1f3f6;
 }
 
 body {
 	background: var(--body-background);
+}
+
+.wrapper {
+	width: calc(100% - 13.125rem);
 }

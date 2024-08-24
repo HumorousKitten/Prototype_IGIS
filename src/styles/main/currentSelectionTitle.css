@@ -4,9 +4,7 @@
 	margin: auto;
 }
 
-.wrapper {
-	width: calc(100% - 13.125rem);
-}
+
 
 .currentSelection{
 	display: flex;
